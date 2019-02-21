@@ -1,0 +1,18 @@
+CACHE MANIFEST
+#DATE 2019-02-21
+#manifiesto v1.0
+#El manifiesto de mi paagina.
+
+CACHE:
+css/style.css
+css/img/img5.jpg
+css/img/img2.jpg
+scripts/miscript.js
+
+NETWORK:
+log.php
+visitas.php
+
+FALLBACK:
+#static.html
+img/img.png

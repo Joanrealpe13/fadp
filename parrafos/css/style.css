@@ -1,0 +1,47 @@
+html,body{
+	height: 100%;
+}
+body{
+	background: url(img/img5.jpg);
+	background-size: cover;
+	background-attachment: fixed;
+}
+
+.caja{
+	background: rgba(255,255,255,0.6);
+	column-count: 3;
+	column-rule: dashed 0.1em;
+	margin: 0 auto;
+	text-align: justify;
+	padding: 0.5em;
+	width: 60%;
+}
+h1{
+	text-align: center;
+	text-shadow: 0 0 0.5em rgba(0,0,0,0.8);
+	color: white;
+	font-size: 70px;
+}
+.galeria{
+	display: flex;
+}
+.galeria div{
+	height: 200px;
+	filter: grayscale(1);
+	padding: 3em;
+	width: 25%;
+	transition: all linear 2s;
+} 
+/*los hijos de la galeria */
+.galeria div:nth-child(1){
+	background: url("img/img2.jpg");
+}
+.galeria div:nth-child(2){
+	background: url("img/img2.jpg");
+}
+.galeria div:nth-child(3){
+	background: url("img/img2.jpg");
+}
+.galeria div:hover{
+	filter: grayscale(0);
+}
